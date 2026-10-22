@@ -1,14 +1,14 @@
 [project]
-name = "calculator-server"
+name = "calculator-server-sanketmote05"
 version = "0.1.0"
 description = "MCP Calculator Server"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp[cli]>=1.0.0",
+    "mcp[cli]>=1.0.0,<2",
 ]
 
 [project.scripts]
-calculator-server = "mcp_server_calculator:main"
+calculator-server-sanketmote05 = "mcp_server_calculator:main"
 
 [build-system]
 requires = ["hatchling"]
